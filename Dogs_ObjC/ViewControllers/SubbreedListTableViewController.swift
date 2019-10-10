@@ -31,7 +31,7 @@ class SubbreedListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "subbreedCell", for: indexPath)
 
         let subbreed = breed?.subbreeds?[indexPath.row]
-        cell.textLabel?.text = subbreed?.name
+        cell.textLabel?.text = "\(subbreed?.name.capitalized ?? "") \(breed?.name.capitalized ?? "")"
 
         return cell
     }
@@ -50,7 +50,7 @@ class SubbreedListTableViewController: UITableViewController {
                 else { return }
 
             CVCBreedsController.fetchImageURLs(for: subbreed, breed: breed) { urls in
-                destinationVC.title = "\(subbreed.name) \(breed.name)"
+                destinationVC.title = "\(subbreed.name.capitalized) \(breed.name.capitalized)"
                 destinationVC.imageURLs = urls
             }
         }

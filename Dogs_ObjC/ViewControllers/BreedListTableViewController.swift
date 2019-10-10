@@ -39,7 +39,7 @@ class BreedListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "breedCell", for: indexPath)
 
         let breed = breeds[indexPath.row]
-        cell.textLabel?.text = breed.name
+        cell.textLabel?.text = breed.name.capitalized
 
         return cell
     }
@@ -65,6 +65,7 @@ class BreedListTableViewController: UITableViewController {
                 else { return }
             
             let breed = breeds[indexPath.row]
+            destinationVC.title = breed.name.capitalized
             destinationVC.breed = breed
             
         } else if segue.identifier == "breedToImagesVC" {
@@ -75,7 +76,7 @@ class BreedListTableViewController: UITableViewController {
             
             let breed = breeds[indexPath.row]
             CVCBreedsController.fetchImageURLs(for: breed) { urls in
-                destinationVC.title = breed.name
+                destinationVC.title = breed.name.capitalized
                 destinationVC.imageURLs = urls
             }
         }
