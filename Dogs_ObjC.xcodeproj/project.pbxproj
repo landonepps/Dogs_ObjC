@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44132EC0234FD8FB0028EA73 /* PrimarySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44132EBF234FD8FB0028EA73 /* PrimarySplitViewController.swift */; };
 		444834A0234EA9E800205133 /* ImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448349F234EA9E800205133 /* ImagesCollectionViewController.swift */; };
 		444834A3234EAA4C00205133 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444834A2234EAA4C00205133 /* ImageCollectionViewCell.swift */; };
 		444834A5234EB2F200205133 /* ImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444834A4234EB2F200205133 /* ImageFlowLayout.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44132EBF234FD8FB0028EA73 /* PrimarySplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySplitViewController.swift; sourceTree = "<group>"; };
 		4448349F234EA9E800205133 /* ImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewController.swift; sourceTree = "<group>"; };
 		444834A2234EAA4C00205133 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		444834A4234EB2F200205133 /* ImageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFlowLayout.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		44D1705A234EA17200B10D95 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				44132EBF234FD8FB0028EA73 /* PrimarySplitViewController.swift */,
 				44D1705B234EA19B00B10D95 /* BreedListTableViewController.swift */,
 				44D1705D234EA3BC00B10D95 /* SubbreedListTableViewController.swift */,
 				4448349F234EA9E800205133 /* ImagesCollectionViewController.swift */,
@@ -228,6 +231,7 @@
 				44EF8492234E8D63002EEDE5 /* CVCBreedsController.m in Sources */,
 				44893B84234E88A3006D8A31 /* CVCSubbreed.m in Sources */,
 				44D1705E234EA3BC00B10D95 /* SubbreedListTableViewController.swift in Sources */,
+				44132EC0234FD8FB0028EA73 /* PrimarySplitViewController.swift in Sources */,
 				44893B80234E8860006D8A31 /* CVCBreed.m in Sources */,
 				444834A5234EB2F200205133 /* ImageFlowLayout.swift in Sources */,
 				44A7104B234E87500010F417 /* AppDelegate.swift in Sources */,

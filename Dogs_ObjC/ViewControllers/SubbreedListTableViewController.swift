@@ -42,7 +42,8 @@ class SubbreedListTableViewController: UITableViewController {
         
         if segue.identifier == "subbreedToImagesVC" {
         
-            guard let destinationVC = segue.destination as? ImagesCollectionViewController,
+            guard let navigationController = segue.destination as? UINavigationController,
+                let destinationVC = navigationController.topViewController as? ImagesCollectionViewController,
                 let indexPath = tableView.indexPathForSelectedRow,
                 let breed = breed,
                 let subbreed = breed.subbreeds?[indexPath.row]

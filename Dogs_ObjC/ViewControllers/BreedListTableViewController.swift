@@ -68,7 +68,8 @@ class BreedListTableViewController: UITableViewController {
             destinationVC.breed = breed
             
         } else if segue.identifier == "breedToImagesVC" {
-            guard let destinationVC = segue.destination as? ImagesCollectionViewController,
+            guard let navigationController = segue.destination as? UINavigationController,
+                let destinationVC = navigationController.topViewController as? ImagesCollectionViewController,
                 let indexPath = tableView.indexPathForSelectedRow
                 else { return }
             
