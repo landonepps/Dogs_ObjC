@@ -75,6 +75,7 @@ class BreedListTableViewController: UITableViewController {
             
             let breed = breeds[indexPath.row]
             CVCBreedsController.fetchImageURLs(for: breed) { urls in
+                destinationVC.title = breed.name
                 destinationVC.imageURLs = urls
             }
         }

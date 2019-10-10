@@ -50,6 +50,7 @@ class SubbreedListTableViewController: UITableViewController {
                 else { return }
 
             CVCBreedsController.fetchImageURLs(for: subbreed, breed: breed) { urls in
+                destinationVC.title = "\(subbreed.name) \(breed.name)"
                 destinationVC.imageURLs = urls
             }
         }
