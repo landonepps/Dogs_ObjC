@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444834A0234EA9E800205133 /* ImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448349F234EA9E800205133 /* ImagesCollectionViewController.swift */; };
+		444834A3234EAA4C00205133 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444834A2234EAA4C00205133 /* ImageCollectionViewCell.swift */; };
+		444834A5234EB2F200205133 /* ImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444834A4234EB2F200205133 /* ImageFlowLayout.swift */; };
+		44893B80234E8860006D8A31 /* CVCBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 44893B7F234E8860006D8A31 /* CVCBreed.m */; };
+		44893B84234E88A3006D8A31 /* CVCSubbreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 44893B83234E88A3006D8A31 /* CVCSubbreed.m */; };
 		44A7104B234E87500010F417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7104A234E87500010F417 /* AppDelegate.swift */; };
-		44A7104D234E87500010F417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7104C234E87500010F417 /* SceneDelegate.swift */; };
-		44A7104F234E87500010F417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7104E234E87500010F417 /* ViewController.swift */; };
 		44A71052234E87500010F417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A71050234E87500010F417 /* Main.storyboard */; };
 		44A71054234E87530010F417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A71053234E87530010F417 /* Assets.xcassets */; };
 		44A71057234E87530010F417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A71055234E87530010F417 /* LaunchScreen.storyboard */; };
+		44D1705C234EA19B00B10D95 /* BreedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1705B234EA19B00B10D95 /* BreedListTableViewController.swift */; };
+		44D1705E234EA3BC00B10D95 /* SubbreedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1705D234EA3BC00B10D95 /* SubbreedListTableViewController.swift */; };
+		44EF8492234E8D63002EEDE5 /* CVCBreedsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EF8491234E8D63002EEDE5 /* CVCBreedsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4448349F234EA9E800205133 /* ImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewController.swift; sourceTree = "<group>"; };
+		444834A2234EAA4C00205133 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		444834A4234EB2F200205133 /* ImageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFlowLayout.swift; sourceTree = "<group>"; };
+		44893B7D234E8860006D8A31 /* Dogs_ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dogs_ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		44893B7E234E8860006D8A31 /* CVCBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVCBreed.h; sourceTree = "<group>"; };
+		44893B7F234E8860006D8A31 /* CVCBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVCBreed.m; sourceTree = "<group>"; };
+		44893B82234E88A3006D8A31 /* CVCSubbreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVCSubbreed.h; sourceTree = "<group>"; };
+		44893B83234E88A3006D8A31 /* CVCSubbreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVCSubbreed.m; sourceTree = "<group>"; };
 		44A71047234E87500010F417 /* Dogs_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogs_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A7104A234E87500010F417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44A7104C234E87500010F417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44A7104E234E87500010F417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44A71051234E87500010F417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44A71053234E87530010F417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44A71056234E87530010F417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44A71058234E87530010F417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D1705B234EA19B00B10D95 /* BreedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListTableViewController.swift; sourceTree = "<group>"; };
+		44D1705D234EA3BC00B10D95 /* SubbreedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubbreedListTableViewController.swift; sourceTree = "<group>"; };
+		44EF8490234E8D63002EEDE5 /* CVCBreedsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVCBreedsController.h; sourceTree = "<group>"; };
+		44EF8491234E8D63002EEDE5 /* CVCBreedsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVCBreedsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		444834A1234EAA2C00205133 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				444834A2234EAA4C00205133 /* ImageCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		444834A6234EB3E400205133 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				44A71050234E87500010F417 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		444834A7234EB3F000205133 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				444834A4234EB2F200205133 /* ImageFlowLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		44893B81234E8867006D8A31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44893B7E234E8860006D8A31 /* CVCBreed.h */,
+				44893B7F234E8860006D8A31 /* CVCBreed.m */,
+				44893B82234E88A3006D8A31 /* CVCSubbreed.h */,
+				44893B83234E88A3006D8A31 /* CVCSubbreed.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44893B85234E88AA006D8A31 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44EF8490234E8D63002EEDE5 /* CVCBreedsController.h */,
+				44EF8491234E8D63002EEDE5 /* CVCBreedsController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
 		44A7103E234E87500010F417 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +116,37 @@
 		44A71049234E87500010F417 /* Dogs_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				44893B81234E8867006D8A31 /* Models */,
+				44893B85234E88AA006D8A31 /* ModelControllers */,
+				44D1705A234EA17200B10D95 /* ViewControllers */,
+				444834A6234EB3E400205133 /* Storyboards */,
+				444834A1234EAA2C00205133 /* Cells */,
+				444834A7234EB3F000205133 /* Layouts */,
+				44A7105E234E88240010F417 /* Resources */,
+			);
+			path = Dogs_ObjC;
+			sourceTree = "<group>";
+		};
+		44A7105E234E88240010F417 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				44A7104A234E87500010F417 /* AppDelegate.swift */,
-				44A7104C234E87500010F417 /* SceneDelegate.swift */,
-				44A7104E234E87500010F417 /* ViewController.swift */,
-				44A71050234E87500010F417 /* Main.storyboard */,
 				44A71053234E87530010F417 /* Assets.xcassets */,
 				44A71055234E87530010F417 /* LaunchScreen.storyboard */,
 				44A71058234E87530010F417 /* Info.plist */,
+				44893B7D234E8860006D8A31 /* Dogs_ObjC-Bridging-Header.h */,
 			);
-			path = Dogs_ObjC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44D1705A234EA17200B10D95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44D1705B234EA19B00B10D95 /* BreedListTableViewController.swift */,
+				44D1705D234EA3BC00B10D95 /* SubbreedListTableViewController.swift */,
+				4448349F234EA9E800205133 /* ImagesCollectionViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,12 +175,14 @@
 		44A7103F234E87500010F417 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CVC;
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Landon Epps";
 				TargetAttributes = {
 					44A71046234E87500010F417 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -138,9 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A7104F234E87500010F417 /* ViewController.swift in Sources */,
+				444834A0234EA9E800205133 /* ImagesCollectionViewController.swift in Sources */,
+				44D1705C234EA19B00B10D95 /* BreedListTableViewController.swift in Sources */,
+				444834A3234EAA4C00205133 /* ImageCollectionViewCell.swift in Sources */,
+				44EF8492234E8D63002EEDE5 /* CVCBreedsController.m in Sources */,
+				44893B84234E88A3006D8A31 /* CVCSubbreed.m in Sources */,
+				44D1705E234EA3BC00B10D95 /* SubbreedListTableViewController.swift in Sources */,
+				44893B80234E8860006D8A31 /* CVCBreed.m in Sources */,
+				444834A5234EB2F200205133 /* ImageFlowLayout.swift in Sources */,
 				44A7104B234E87500010F417 /* AppDelegate.swift in Sources */,
-				44A7104D234E87500010F417 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +374,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R9933TQJB;
-				INFOPLIST_FILE = Dogs_ObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dogs_ObjC/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.landonepps.dvmtn.Dogs-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dogs_ObjC/Resources/Dogs_ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,17 +396,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R9933TQJB;
-				INFOPLIST_FILE = Dogs_ObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dogs_ObjC/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.landonepps.dvmtn.Dogs-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dogs_ObjC/Resources/Dogs_ObjC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
