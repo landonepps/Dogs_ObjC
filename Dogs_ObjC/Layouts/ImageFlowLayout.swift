@@ -9,8 +9,8 @@
 import UIKit
 
 class ImageFlowLayout: UICollectionViewFlowLayout {
-    private let minColumnWidth: CGFloat = 120.0
-    private let paddingSize: CGFloat = 0.0
+    private let minColumnWidth: CGFloat = 150.0
+    private let paddingSize: CGFloat = 1.0
     
     override func prepare() {
         super.prepare()
